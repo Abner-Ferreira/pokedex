@@ -1,0 +1,29 @@
+.btnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.btnContainer button{
+  border: none;
+  outline: none;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#btnAvancar{
+  background-color: #fff;
+  color: #000;
+}
+#btnVoltar{
+  background-color: #000;
+  color: #fff;
+}
+#btnVoltar:disabled{
+  background-color: rgba(0, 0, 0, 0.418);
+}
+#btnAvancar:disabled{
+  background-color: rgba(255, 255, 255, 0.493);
+}
